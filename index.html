@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/Responsive.css"
+
+    <!--owlcss-->
+    <link rel="stylesheet" href="./owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
+
+
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">THE ORIGINALS</h3>
+                <p class="descricao">Klaus é um vampiro disposto a retomar Nova Orleans, cidade construída por sua família séculos atrás. Na missão, ele aprende mais sobre seu passado enquanto alianças são formadas.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="assistir()">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button  role="button" class="botao" onclick="detalhes()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+        </main>
+
+        <div class="carrossel-filmes">
+            <div class="owl-carousel owl-yheme">
+                <div class="item">
+                    <img class="box-filme" src="/img/AbaixodeZero.jpg" alt="Abaixo de zero">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/AVA.jpg" alt="AVA">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/CobraKai.jpg" alt="CobraKai">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/GOT.jpg" alt="GOT">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/LegadoExplosivo.jpg" alt="LegadoExplosivo">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/Legados.jpg" alt="Legados">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/Lucifer.jpg" alt="Lucifer">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/TWD.jpg" alt="TWD">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/VampiresDiares.jpg" alt="VampiresDiares">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/Vikins.jpg" alt="Vikins">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/PontoVermelho.jpg" alt="PontoVermelho">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/Riverdale.jpg" alt="Riverdale">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/AnjodaViganca.jpg" alt="AnjodaViganca">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/a656f7bfd0.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
+    <script src="/js/owl/animacoes.js"></script>
+</body>
+</html>
